@@ -1,0 +1,12 @@
+#!/bin/bash
+APP="$1"; IMAGE="$2"
+
+echo "-----> Injecting heroku-multi-buildpack ..."
+
+MULTI_BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+
+id=$(docker run -i -a stdin $IMAGE /bin/bash -c "cd /build/buildpacks && git clone --depth=1 $MULTI_BUILDPACK_URL")
+
+docker attach $id
+test $(docker wait $id) -eq 0
+docker commit $id $IMAGE > /dev/null
