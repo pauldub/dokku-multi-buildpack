@@ -1,7 +1,7 @@
 #dokku-multi-buildpack
 
 dokku-multi-buildpack is a plugin for [dokku][dokku] that injects
-[https://github.com/ddollar/heroku-buildpack-multi][heroku-buildpack-multi] to buildstep and allows you to user more buildpacks.
+[heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi) to buildstep and allows you to user more buildpacks.
 
 ## Installation
 
