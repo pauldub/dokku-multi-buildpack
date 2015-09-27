@@ -1,0 +1,4 @@
+[plugin]
+description = "injects heroku-buildpack-multi into your dokku deploys"
+version = "1.0.0"
+[plugin.config]
