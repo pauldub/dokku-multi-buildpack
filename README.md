@@ -1,7 +1,7 @@
 #dokku-multi-buildpack
 
-dokku-multi-buildpack is a plugin for [dokku][dokku] that injects
-[https://github.com/ddollar/heroku-buildpack-multi][heroku-buildpack-multi] to buildstep and allows you to user more buildpacks.
+dokku-multi-buildpack is a plugin for [dokku](http://dokku.viewdocs.io/dokku) that injects
+[heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi) into buildstep, allowing the use of multiple buildpacks.
 
 ## Installation
 
@@ -35,5 +35,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[dokku]: https://github.com/progrium/dokku
-[super]: http://supervisord.org
+[dokku](https://github.com/progrium/dokku)
+
+[super](http://supervisord.org)
