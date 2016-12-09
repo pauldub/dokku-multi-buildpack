@@ -1,0 +1,4 @@
+[plugin]
+description = "Heroku multi buildpack"
+version = "0.1.0"
+[plugin.config]
